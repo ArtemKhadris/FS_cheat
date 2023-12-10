@@ -1,28 +1,6 @@
 import cv2 as cv
 import numpy as np
 
-'''
-needle_img_path = 'C:\\Users\\cheat\\pics\\filtred_dataset\\8.bmp'
-needle_img = cv.imread(needle_img_path, cv.IMREAD_UNCHANGED)
-print(type(needle_img))
-
-# Save the image array as a text file
-np.savetxt('8.txt', needle_img.reshape(-1, needle_img.shape[2]), fmt='%d')
-
-loaded_data = np.loadtxt('8.txt')
-
-# Reshape the loaded data back to its original shape
-image_array = loaded_data.reshape((loaded_data.shape[0], loaded_data.shape[1] // 3, 3)).astype(np.uint8)
-image_array = image_array.reshape(36, 37, 3)
-print(image_array)
-
-diff_indices = np.where(image_array != needle_img)
-print("Difference indices:", diff_indices)
-print("image_array values:", image_array[diff_indices])
-print("needle_img values:", needle_img[diff_indices])
-'''
-
-
 pic1 = '''0 0 0
 0 0 0
 0 0 0
@@ -15545,16 +15523,3 @@ pictuter4 = [picture1, picture2, picture3, picture4]
 
 global pictuter8
 pictuter8 = [picture1, picture2, picture3, picture4, picture9, picture10, picture11, picture12]
-
-'''
-print('------------')
-print(needle_img.dtype)
-print(picture1.dtype)
-
-# Compare image_array and needle_img
-are_equal = np.array_equal(image_array, needle_img)
-print("Are image_array and needle_img equal?", are_equal)
-
-are_equal = np.array_equal(needle_img, picture8)
-print("Are image_array and needle_img equal?", are_equal)
-'''
