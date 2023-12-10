@@ -24,12 +24,7 @@ class MainWindow(QMainWindow):
         self.resize(300, 150)
         self.center()
         self.Flag2 = True
-        '''
-        self.login_label = QLabel("Login:", self).hide()
-        self.password_label = QLabel("Password:", self).hide()
-        self.key1_label = QLabel("Personal key:", self).hide()
-        self.key2_label = QLabel("Repeat personal key:", self).hide()
-        '''
+        
         # Create the main widget and set a QVBoxLayout
         main_widget = QWidget(self)
         layout = QVBoxLayout(main_widget)
