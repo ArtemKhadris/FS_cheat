@@ -1,6 +1,6 @@
 # Automatic keystrokes for the game FreeStreet
 
-The code looks for these pictures (arrows) in the window and clicks them in the correct order. Created UI for login and login confirmation.
+The work is based on OpenCV. The code looks for these pictures (arrows) in the window and clicks them in the correct order. Various filters are used to improve image search, and limiting the search area to speed up the work. The waiting time before pressing a key is set so that the program's operation is not noticed. Created UI for login and login confirmation.
 
 JPG files - images for searching. Text files - the same pictures, but in a different format. They are all in the pictures.py file. Separately for clarity.
 
