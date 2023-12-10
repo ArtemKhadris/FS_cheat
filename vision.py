@@ -7,8 +7,6 @@ from pictures import pictuter
 import random
 import time
 
-#haystack_img = 'C:\\Users\\pics\\1.png'
-#needle_img = 'C:\\Users\\dataset\\jpgs\\1.jpg'
 press_buttons = {'1':buttons.up, '2':buttons.down, '3':buttons.right, '4':buttons.left,
                  '9':buttons.down, '10':buttons.up, '11':buttons.left, '12':buttons.right,
                  '5':buttons.upr, '6':buttons.downl, '7':buttons.downr, '8':buttons.upl,
